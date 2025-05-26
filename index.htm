@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Park Cinema</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="bg-[#424445] text-white">
    <header class="absolute top-0 z-1000 w-full">
@@ -40,14 +40,11 @@
           <img class="absolute left-0 top-0 w-full" src="./img/overlay.webp" alt="img">
         </div>
       </div>
-
-
       <div class="swiper-pagination"></div>
       <div class="swiper-button-next text-white"></div>
       <div class="swiper-button-prev text-white"></div>
     </div>
      </div>
-
    <main class="container mx-auto px-4 py-6">
       <div class="text-[30px] font-medium text-[#D9DADB] flex flex-col md:flex-row justify-evenly gap-4 text-center">
           <div class="drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Siyahı</div>
@@ -58,11 +55,10 @@
         <li class="text-[#b3b7bc]">Tezliklə</li>
         <li class="text-[#b3b7bc]">Cədvəl</li>
       </ul>
-
       <div class="flex flex-col md:flex-row justify-between mt-6 gap-4">
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('d1')" class="w-full text-left text-white italic text-lg px-4 py-2">Dil</button>
-          <div id="dropdown" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
+          <button onclick="toggleDropdown('1')" class="w-full text-left text-white italic text-lg px-4 py-2">Dil</button>
+          <div id="dropdown1" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
             <ul class="text-white font-semibold">
               <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">AZ</li>
               <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">TR</li>
@@ -73,7 +69,7 @@
         </div>
 
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('d2')" class="w-full text-left text-white italic text-lg px-4 py-2">Kinoteatr</button>
+          <button onclick="toggleDropdown('2')" class="w-full text-left text-white italic text-lg px-4 py-2">Kinoteatr</button>
           <div id="dropdown2" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
             <ul class="text-white font-semibold">
               <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Park Bulvar</li>
@@ -86,9 +82,9 @@
         </div>
 
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('d3')" class="w-full text-left text-white italic text-lg px-4 py-2">Bugün</button>
+          <button onclick="toggleDropdown('3')" class="w-full text-left text-white italic text-lg px-4 py-2">Bugün</button>
           <div id="dropdown3" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
-            <!-- Dynamic content can go here -->
+            
           </div>
         </div>
       </div>
@@ -159,6 +155,6 @@
       });
     </script>
 
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
