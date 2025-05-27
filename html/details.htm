@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Document</title>
-</head>
-<body>
-    <div>jvkvejnvjvejvejn</div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#424445]">
+    <main>
+      <div class="flex justify-between items-center">
+        <div class="w-[33%]">
+          <div
+            id="date-container"
+            class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-4 p-4"
+          ></div>
+        </div>
+        <div class="relative w-full md:w-[33%] border-b-2 border-white">
+          <button
+            onclick="toggleDropdownSecond('1')"
+            class="w-full text-left text-white italic text-lg px-4 py-2"
+          >
+            Kinoteatr
+          </button>
+          <div
+            id="dropdown4"
+            class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10"
+          >
+            <ul class="text-white font-semibold">
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Park Bulvar
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Metro Park
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Flame Towers
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Sevinc Mall
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Shah Dag
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="relative w-full md:w-[33%] border-b-2 border-white">
+          <button
+            onclick="toggleDropdownSecond('2')"
+            class="w-full text-left text-white italic text-lg px-4 py-2"
+          >
+            Dil
+          </button>
+          <div
+            id="dropdown5"
+            class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10"
+          >
+            <ul class="text-white font-semibold">
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">AZ</li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">TR</li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">RU</li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">EN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div id="time"></div>
+    </main>
+    <footer class="bg-[#86312a] mt-12">
+      <div
+        class="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center text-[#d9dadb] text-[16px]"
+      >
+        <img
+          class="w-[150px] h-[80px] mb-4 md:mb-0"
+          src="../img/logo.svg"
+          alt="Logo"
+        />
+
+        <ul class="text-center md:text-left">
+          <li class="pb-2">Kinoteatrlar</li>
+          <li class="py-2">Aksiyalar</li>
+          <li class="py-2">FAQ</li>
+        </ul>
+
+        <ul class="text-center md:text-left">
+          <li class="pb-2">Profil</li>
+          <li class="py-2">Əlaqə</li>
+          <li class="py-2">Hüquqi Şərtlər</li>
+        </ul>
+
+        <div class="text-center md:text-left">
+          <p>Bizi izləyin</p>
+          <ul
+            class="flex justify-center md:justify-start text-2xl pt-6 flex-wrap gap-2"
+          >
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </li>
+          </ul>
+        </div>
+
+        <img class="pt-2 mt-4 md:mt-0" src="../img/Visa.svg" alt="Visa" />
+      </div>
+
+      <div
+        class="text-[#d9dadb] text-[14px] flex flex-col md:flex-row justify-between items-center px-8 py-[32px]"
+      >
+        <p>© Park Cinema, 2025</p>
+        <p>ESAM Innovations</p>
+      </div>
+    </footer>
 
     <script src="../js/details.js"></script>
-</body>
+    <script src="../js/script.js"></script>
+  </body>
 </html>
