@@ -10,6 +10,7 @@ function toggleDropdown(d) {
   d == "3"
     ? document.getElementById("dropdown3").classList.toggle("hidden")
     : document.getElementById("dropdown3").classList.add("hidden");
+
 }
 
 const ageMap = {
@@ -29,9 +30,7 @@ async function showCards() {
   data.map((item) => {
     const ageLimit = ageMap[item.ageLimit];
 
-    cards.innerHTML += `<div onclick= "navigate('${
-      item.id
-    }')" class="my-2 relative">
+    cards.innerHTML += `<div onclick= "navigate('${item.id}')" class="my-2 relative">
 
   <div class="w-[290px] h-[400px] rounded-4xl shadow-inner overflow-hidden bg-black">
     <img class="hover:scale-105 duration-300 w-full opacity-65 h-full object-cover" 
