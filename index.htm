@@ -1,68 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Park Cinema</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/output.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="stylesheet" href="css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body class="bg-[#424445] text-white">
-   <header class="absolute top-0 z-1000 w-full">
-        <div id="header" class="flex justify-between items-center p-6 gap-36 w-full">
-            <div id="LOGO" class=""><a href="#" class="border-t-1 border-b-1 border-dashed"><img src="img/logo.svg" alt="img" class="w-[150px] h-[50px]"></a></div>
-            <div id="section" class="flex justify-center items-center">
-                <div><a href="#" class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700">Kinoteatrlar</a></div>
-                <div><a href="#" class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700">Aksiyalar</a></div>
-                <div><a href="#" class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700">FAQ</a></div>
-                <div><a href="#" class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700">Əlaqə</a></div>
-                <div><a href="#" class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700">Profil</a></div>
-            </div>
-            <div id="lang" class="flex">
-                <select class="text-white">
-                    <option class="text-black">AZE</option>
-                    <option class="text-black">EN</option>
-                    <option class="text-black">RU</option>
-                </select>
-            </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#424445] text-white">
+    <header class="absolute top-0 z-1000 w-full">
+      <div
+        id="header"
+        class="flex justify-between items-center p-6 gap-36 w-full"
+      >
+        <div id="LOGO" class="">
+          <a href="#" class="border-t-1 border-b-1 border-dashed"
+            ><img src="img/logo.svg" alt="img" class="w-[150px] h-[50px]"
+          /></a>
         </div>
+        <div id="section" class="flex justify-center items-center">
+          <div>
+            <a
+              href="#"
+              class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700"
+              >Kinoteatrlar</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700"
+              >Aksiyalar</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700"
+              >FAQ</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700"
+              >Əlaqə</a
+            >
+          </div>
+          <div>
+            <a
+              href="#"
+              class="text-white flex justify-center items-center mx-4 p-4 hover:text-red-700"
+              >Profil</a
+            >
+          </div>
+        </div>
+        <div id="lang" class="flex">
+          <select class="text-white">
+            <option class="text-black">AZE</option>
+            <option class="text-black">EN</option>
+            <option class="text-black">RU</option>
+          </select>
+        </div>
+      </div>
     </header>
-     <div class="h-screen ">
+    <div class="h-screen">
       <div class="swiper mySwiper w-full overflow-hidden">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide relative">
-          <img class="object-cover h-screen" src="./img/1744884456470_1744884456469_tagiyev__sayt_banner.webp" alt="img">
-          <img class="absolute left-0 top-0 w-full" src="./img/overlay.webp" alt="img">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide relative">
+            <img
+              class="object-cover h-screen"
+              src="./img/1744884456470_1744884456469_tagiyev__sayt_banner.webp"
+              alt="img"
+            />
+            <img
+              class="absolute left-0 top-0 w-full"
+              src="./img/overlay.webp"
+              alt="img"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              class="object-cover h-screen"
+              src="./img/1744883815570_1744883815569_wolt_post_sayt_banner.webp"
+              alt="img"
+            />
+            <img
+              class="absolute left-0 top-0 w-full"
+              src="./img/overlay.webp"
+              alt="img"
+            />
+          </div>
         </div>
-        <div class="swiper-slide">
-          <img class="object-cover h-screen" src="./img/1744883815570_1744883815569_wolt_post_sayt_banner.webp" alt="img">
-          <img class="absolute left-0 top-0 w-full" src="./img/overlay.webp" alt="img">
-        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next text-white"></div>
+        <div class="swiper-button-prev text-white"></div>
       </div>
-      <div class="swiper-pagination"></div>
-      <div class="swiper-button-next text-white"></div>
-      <div class="swiper-button-prev text-white"></div>
     </div>
-     </div>
-   <main class="container mx-auto px-4 py-6">
-      <div class="text-[30px] font-medium text-[#D9DADB] flex flex-col md:flex-row justify-evenly gap-4 text-center">
-          <div class="drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Siyahı</div>
-          <div>Treylerlər</div>
+    <main class="container mx-auto px-4 py-6">
+      <div
+        class="text-[30px] font-medium text-[#D9DADB] flex flex-col md:flex-row justify-evenly gap-4 text-center"
+      >
+        <div class="drop-shadow-[0_0_10px_rgba(255,255,255,0.5)]">Siyahı</div>
+        <div>Treylerlər</div>
       </div>
-      <ul class="flex flex-col md:flex-row text-[20px] font-medium justify-center gap-4 mt-4">
+      <ul
+        class="flex flex-col md:flex-row text-[20px] font-medium justify-center gap-4 mt-4"
+      >
         <li class="text-white underline">Hamısı</li>
         <li class="text-[#b3b7bc]">Tezliklə</li>
         <li class="text-[#b3b7bc]">Cədvəl</li>
       </ul>
       <div class="flex flex-col md:flex-row justify-between mt-6 gap-4">
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('1')" class="w-full text-left text-white italic text-lg px-4 py-2">Dil</button>
-          <div id="dropdown1" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
+          <button
+            onclick="toggleDropdown('1')"
+            class="w-full text-left text-white italic text-lg px-4 py-2"
+          >
+            Dil
+          </button>
+          <div
+            id="dropdown1"
+            class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10"
+          >
             <ul class="text-white font-semibold">
               <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">AZ</li>
               <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">TR</li>
@@ -73,78 +145,124 @@
         </div>
 
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('2')" class="w-full text-left text-white italic text-lg px-4 py-2">Kinoteatr</button>
-          <div id="dropdown2" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
+          <button
+            onclick="toggleDropdown('2')"
+            class="w-full text-left text-white italic text-lg px-4 py-2"
+          >
+            Kinoteatr
+          </button>
+          <div
+            id="dropdown2"
+            class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10"
+          >
             <ul class="text-white font-semibold">
-              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Park Bulvar</li>
-              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Metro Park</li>
-              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Flame Towers</li>
-              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Sevinc Mall</li>
-              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">Shah Dag</li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Park Bulvar
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Metro Park
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Flame Towers
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Sevinc Mall
+              </li>
+              <li class="px-4 py-2 hover:bg-gray-600 cursor-pointer">
+                Shah Dag
+              </li>
             </ul>
           </div>
         </div>
 
         <div class="relative w-full md:w-[33%] border-b-2 border-white">
-          <button onclick="toggleDropdown('3')" class="w-full text-left text-white italic text-lg px-4 py-2">Bugün</button>
-          <div id="dropdown3" class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10">
-            
-          </div>
+          <button
+            onclick="toggleDropdown('3')"
+            class="w-full text-left text-white italic text-lg px-4 py-2"
+          >
+            Bugün
+          </button>
+          <div
+            id="dropdown3"
+            class="absolute mt-1 w-full bg-gray-500 rounded-md shadow-lg hidden z-10"
+          ></div>
         </div>
       </div>
 
-      <div id="cards" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8"></div>
-   </main>
+      <div
+        id="cards"
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mt-8"
+      ></div>
+    </main>
 
-   <footer class="bg-[#86312a] mt-12">
-    <div class="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center text-[#d9dadb] text-[16px]">
-      <img class="w-[150px] h-[80px] mb-4 md:mb-0" src="img/logo.svg" alt="Logo">
+    <footer class="bg-[#86312a] mt-12">
+      <div
+        class="container mx-auto px-4 py-8 flex flex-col md:flex-row justify-between items-center text-[#d9dadb] text-[16px]"
+      >
+        <img
+          class="w-[150px] h-[80px] mb-4 md:mb-0"
+          src="img/logo.svg"
+          alt="Logo"
+        />
 
-      <ul class="text-center md:text-left">
-        <li class="pb-2">Kinoteatrlar</li>
-        <li class="py-2">Aksiyalar</li>
-        <li class="py-2">FAQ</li>
-      </ul>
-
-      <ul class="text-center md:text-left">
-        <li class="pb-2">Profil</li>
-        <li class="py-2">Əlaqə</li>
-        <li class="py-2">Hüquqi Şərtlər</li>
-      </ul>
-
-      <div class="text-center md:text-left">
-        <p>Bizi izləyin</p>
-        <ul class="flex justify-center md:justify-start text-2xl pt-6 flex-wrap gap-2">
-          <li class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]">
-            <i class="fa-brands fa-instagram"></i>
-          </li>
-          <li class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]">
-            <i class="fa-brands fa-facebook"></i>
-          </li>
-          <li class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]">
-            <i class="fa-brands fa-youtube"></i>
-          </li>
-          <li class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]">
-            <i class="fa-brands fa-telegram"></i>
-          </li>
-          <li class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]">
-            <i class="fa-brands fa-tiktok"></i>
-          </li>
+        <ul class="text-center md:text-left">
+          <li class="pb-2">Kinoteatrlar</li>
+          <li class="py-2">Aksiyalar</li>
+          <li class="py-2">FAQ</li>
         </ul>
+
+        <ul class="text-center md:text-left">
+          <li class="pb-2">Profil</li>
+          <li class="py-2">Əlaqə</li>
+          <li class="py-2">Hüquqi Şərtlər</li>
+        </ul>
+
+        <div class="text-center md:text-left">
+          <p>Bizi izləyin</p>
+          <ul
+            class="flex justify-center md:justify-start text-2xl pt-6 flex-wrap gap-2"
+          >
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-youtube"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </li>
+            <li
+              class="p-2 rounded-full bg-[#d9dadb] size-10 flex items-center justify-center text-[#86312a]"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </li>
+          </ul>
+        </div>
+
+        <img class="pt-2 mt-4 md:mt-0" src="img/Visa.svg" alt="Visa" />
       </div>
 
-      <img class="pt-2 mt-4 md:mt-0" src="img/Visa.svg" alt="Visa">
-    </div>
+      <div
+        class="text-[#d9dadb] text-[14px] flex flex-col md:flex-row justify-between items-center px-8 py-[32px]"
+      >
+        <p>© Park Cinema, 2025</p>
+        <p>ESAM Innovations</p>
+      </div>
+    </footer>
 
-    <div class="text-[#d9dadb] text-[14px] flex flex-col md:flex-row justify-between items-center px-8 py-[32px]">
-      <p>© Park Cinema, 2025</p>
-      <p>ESAM Innovations</p>
-    </div>
-  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    
     <script>
       const swiper = new Swiper(".mySwiper", {
         loop: true,
@@ -159,6 +277,7 @@
       });
     </script>
 
-<script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+    <script src="js/details.js"></script>
+  </body>
 </html>

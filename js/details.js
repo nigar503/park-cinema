@@ -29,7 +29,7 @@ async function showDetail(){
             <tr>
                 <td class="w-[16.6%] py-3">${item.time}</td>
                 <td class="w-[16.6%] py-3">${item.theatreTitle} | ${item.hallTitle}</td>
-                <td class="w-[16.6%] py-3">${item.type.split('_').join( ',')}</td>
+                <td class="w-[16.6%] py-3">${item.type.slice(1)}</td>
                 <td class="w-[16.6%] py-3">${iconFlag}</td>
                 <td class="w-[16.6%] py-3">${subtitleText}</td>
                 <td class="w-[16.6%] py-3">
